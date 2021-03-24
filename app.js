@@ -1,5 +1,13 @@
-// import functions and grab DOM elements
+import { compareNumbers } from './utils.js';
 
-// initialize state
+const guessInput = document.getElementById('guess-input');
+const results = document.getElementById('results');
+const button = document.getElementById('guess-button');
+const attemptsNum = document.getElementById('attempts');
 
-// set event listeners to update state and DOM
+let attempts = 5;
+
+button.addEventListener ('click', () => {
+    attempts--;
+    attemptsNum.textContent = attempts;
+});

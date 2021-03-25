@@ -35,7 +35,7 @@ button.addEventListener ('click', () => {
 });
 
 reset.addEventListener ('click', () => {
-
+    window.location.reload();
 });
 
  

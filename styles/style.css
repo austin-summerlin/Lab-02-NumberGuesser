@@ -67,7 +67,6 @@ div {
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
-
 }
 
 span {
@@ -77,8 +76,7 @@ span {
     background-color: pink;
     border:pink solid 1px;
     border-radius: 5px;
-    justify-content:space-around;
-    
+    justify-content:space-around;   
 }
 
 p {

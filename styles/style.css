@@ -34,10 +34,11 @@ section {
 input {
     width: 50px;
     height: 35px;
+    padding-left: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(60, 201, 166);
-    border: rgb(60, 201, 166) solid 1px;
+    background-color: pink;
+    border:black solid 1px;
     border-radius: 5px;
 }
 
@@ -61,8 +62,8 @@ div {
     border: black solid 1px;
     height: 35px;
     width: 250px;
-    background-color: rgb(60, 201, 166);
-    border: rgb(60, 201, 166) solid 1px;
+    background-color: pink;
+    border:pink solid 1px;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
@@ -73,8 +74,8 @@ span {
     height: 25px;
     display: flex;
     width: 25px;
-    background-color: rgb(60, 201, 166);
-    border: rgb(60, 201, 166) solid 1px;
+    background-color: pink;
+    border:pink solid 1px;
     border-radius: 5px;
     justify-content:space-around;
     
@@ -87,10 +88,7 @@ p {
     display:flex;
     justify-content:space-around;
 }
-input {
-    border: black solid 1px;
-    border-radius: 5px;
-}
+
 button {
     border-radius: 5px;
 }
